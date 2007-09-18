@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(51, 51,51);
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: auto;
+}
+.web-part {
+    display: inline-block;
+    border: 1px solid #ffffff;;
+}
+.nav-side {
+    width: 20%;
+    background-color: #1c1a1a;
+    height: 100%;
+    position: absolut;
+}
+.nav-side h1 {
+    padding: 10px;
+    text-align: center;
+    color: cornflowerblue;
+}
+.nav-side h3,h2{
+    padding: 10px;
+    text-align: center;
+}
+.nav-side h2:hover {
+    background-color: cornflowerblue; 
+}
+.nav-side ul li {
+    list-style: none;
+    padding: 10px;
+}
+.nav-side ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-side ul li:hover {
+    background-color: cornflowerblue;
+}
+.nav-side ul li:active {
+    background-color: cornflowerblue;
+}
+.content-side {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.landing .img1  {
+    width: 20%;
+}
+.landing ul li {
+    list-style: none;
+    display: inline-block;
+}
+.landing ul li img {
+    width: 20px;
+    padding: 10px;
+}
+.skills-lan {
+    background-color: #1c1a1a;
+    border-radius: 10px;
+}
+.skills-lan img {
+    width: 50px;
+    padding: 10px;
+    align-content: center;
+}
+.landing button {
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid cornflowerblue;
+    margin-top: 20px;
+}
