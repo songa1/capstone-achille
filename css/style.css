@@ -2,13 +2,13 @@ body {
     background-color: rgb(51, 51,51);
     color: #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: auto;
+    width: 100%;
 }
 .web-part {
     display: inline-block;
 }
 .nav-side {
-    width: 20%;
+    width: auto;
     background-color: #1c1a1a;
     height: 100%;
     position: sticky;
@@ -18,12 +18,16 @@ body {
     text-align: center;
     color: cornflowerblue;
 }
-.nav-side h3,h2{
+.nav-side h3 {
     padding: 10px;
     text-align: center;
 }
 .nav-side h2:hover {
     background-color: cornflowerblue;
+}
+.nav-side h2 {
+    padding: 20px 10px 20px 10px;
+    text-align: center;
 }
 .nav-side ul li {
     list-style: none;
