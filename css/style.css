@@ -6,13 +6,12 @@ body {
 }
 .web-part {
     display: inline-block;
-    border: 1px solid #ffffff;;
 }
 .nav-side {
     width: 20%;
     background-color: #1c1a1a;
     height: 100%;
-    position: absolut;
+    position: sticky;
 }
 .nav-side h1 {
     padding: 10px;
@@ -24,7 +23,7 @@ body {
     text-align: center;
 }
 .nav-side h2:hover {
-    background-color: cornflowerblue; 
+    background-color: cornflowerblue;
 }
 .nav-side ul li {
     list-style: none;
@@ -35,7 +34,9 @@ body {
     color: #ffffff;
 }
 .nav-side ul li:hover {
-    background-color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .nav-side ul li:active {
     background-color: cornflowerblue;
@@ -44,6 +45,8 @@ body {
     margin: auto;
     padding: 10px;
     text-align: center;
+    position: absolute;
+    width: 78%;
 }
 .landing .img1  {
     width: 20%;
@@ -56,7 +59,7 @@ body {
     width: 20px;
     padding: 10px;
 }
-.skills-lan {
+.landing ul {
     background-color: #1c1a1a;
     border-radius: 10px;
 }
@@ -72,4 +75,14 @@ body {
     font-size: 20px;
     border: 1px solid cornflowerblue;
     margin-top: 20px;
+    color: #ffffff;
+}
+.landing button:active {
+    border: 1px solid rebeccapurple;
+    outline: none;
+}
+.active {
+    background-color: cornflowerblue;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
